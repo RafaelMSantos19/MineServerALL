@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_taiga": "2023-01-03 02:48:40 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

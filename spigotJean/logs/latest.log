@@ -1,0 +1,38 @@
+[00:02:18] [Server thread/INFO]: SHlR0YASHA lost connection: Disconnected
+[00:02:18] [Server thread/INFO]: SHlR0YASHA left the game
+[00:04:28] [User Authenticator #166/INFO]: UUID of player SHlR0YASHA is 65d08c5a-b44b-31bb-8adc-9750005ab11a
+[00:04:29] [Server thread/INFO]: SHlR0YASHA joined the game
+[00:04:29] [Server thread/INFO]: SHlR0YASHA[/143.202.103.16:2817] logged in with entity id 1166790 at ([world]-59.345972012292826, 69.0, 690.3896287177558)
+[00:39:21] [Server thread/INFO]: SHlR0YASHA was blown up by Creeper
+[00:39:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5112ms or 102 ticks behind
+[00:48:06] [Server thread/INFO]: SHlR0YASHA has made the advancement [Hot Stuff]
+[01:48:09] [Server thread/INFO]: SHlR0YASHA lost connection: Disconnected
+[01:48:09] [Server thread/INFO]: SHlR0YASHA left the game
+[02:05:18] [Craft Scheduler Thread - 2788/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[04:47:18] [Craft Scheduler Thread - 2797/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[07:29:18] [Craft Scheduler Thread - 2815/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[10:11:18] [Craft Scheduler Thread - 2830/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[12:53:18] [Craft Scheduler Thread - 2839/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[15:35:18] [Craft Scheduler Thread - 2853/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[17:47:02] [Thread-2/INFO]: Stopping server
+[17:47:02] [Thread-2/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.4
+[17:47:02] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:263) ~[?:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169) ~[jline-2.12.1.jar:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137) ~[jline-2.12.1.jar:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246) ~[jline-2.12.1.jar:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[jline-2.12.1.jar:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[jline-2.12.1.jar:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2349) ~[jline-2.12.1.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:117) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3633-Spigot-d90018e-a0d3dfa]
